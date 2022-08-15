@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+ul{
+    list-style: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    border-radius: 0;
+    background-image: linear-gradient(45deg, #138808 , #ffffff , #FF9933 );
+    
+}
+  
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 20px;
+    }
+a{
+    margin-top: 15px;
+}
+svg{
+    height: 50px;
+    padding:10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float:right;
+    padding-top: 10px;
+}
+li{
+    padding-right: 6%;
+    
+}
+li a:hover:not(.active) {
+    background-color: greenyellow;
+    height: 30px;
+  }
+  .flex{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    border-top: 20px;
+  }
+img{
+    height: 300px;
+    border:40px;
+    margin-top: px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    
+}
+.content{
+    padding:20px;
+    margin: 0;
+    font-family: Nunito;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    /* background-color:rgb(86, 181, 181); */
+    font-family:Nunito;
+}
+button{
+    padding:10px;
+    margin:auto;
+    font-weight: 800;
+}
+h1{
+    font-family: Nunito;
+    font-style: bold;
+    text-align: center;
+}
+.grids{
+    background-color:rgb(72, 44, 7);
+    margin-top:px;
+    padding: 20px;
+    color: rgb(250, 235, 215);
+}
+figcaption{
+    margin:5px;
+}
+figure{
+    text-align: center;
+    box-shadow: 0px 10px 15px white;
+    border-radius: 10px;
+}
+.monu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.down{
+    order:1;
+}
+.quote{
+    text-align: center;
+    background-color: rgb(250, 235, 215);
+    margin-top:0px;
+    font-size: 40px;
+    padding: 20px;
+}
+.action{
+    background-color: rgb(72, 44, 7);
+    text-align:center;
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-between;
+    font-size:30px;
+    padding: 30px;
+
+}
+.visit{
+    float: right;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: black;
+  }
